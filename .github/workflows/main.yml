@@ -29,10 +29,9 @@ jobs:
       - name: Py gen runner
         run: |
           pip install random2
-          pip install os
-          pip install ctypes
+          pip install os-sys
+          pip install ctypes-callable
           pip install requests
           pip install discord
-          pip install string
-          pip install time
+          pip install strings
           python gen.py
