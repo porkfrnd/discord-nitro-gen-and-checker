@@ -28,7 +28,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Py gen runner
         run: |
-          pip install random
+          pip install random2
           pip install os
           pip install ctypes
           pip install requests
