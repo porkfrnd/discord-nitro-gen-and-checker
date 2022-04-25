@@ -15,7 +15,7 @@ with open("Nitro Codes.txt", "w", encoding='utf-8') as file:
 
     start = time.time()
 
-    for i in range(num):
+    for i in range(100000):
         code = "".join(random.choices(
             string.ascii_uppercase + string.digits + string.ascii_lowercase,
             k = 19
